@@ -1,0 +1,56 @@
+/*
+  Name : Brenda Ramirez
+  https://github.com/Brendis7377/cse134b-HW3
+*/
+
+body {
+  background-color: #d9f2f2;
+  color: #333333;
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.latin {
+  font-style: italic;
+}
+
+#warning {
+  background-color: #b2dfdb;
+  padding: 1rem;
+}
+
+blockquote {
+  border: 2px solid #006666;
+  margin: 1.5rem 0;
+  padding: 1rem;
+}
+
+a:hover {
+  color: #006666;
+}
+
+a:focus,
+input:focus,
+button:focus {
+  outline: 3px solid #006666;
+  outline-offset: 3px;
+}
+
+h2 {
+  color: #333333;
+}
+
+h2 {
+  color: #006666;
+}
