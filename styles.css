@@ -1,0 +1,99 @@
+welcome-Message {
+    display: block;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+:root {
+    --background-color: #ffe4ec;
+    --text-color: #333333;
+    --body-font: Georgia, "Times New Roman", serif;
+    --page-width: 70rem;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    line-height: 1.6;
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: "Snell Roundhand", "Brush Script MT", cursive;
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+a:hover,
+nav > a:hover {
+    color: #e3337f;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 3px solid #e3337f;
+    outline-offset: 3px;
+}
+/* adds space above an article that will then come right after another article */
+article + article {
+    margin-top: 2rem;
+}
+
+/* styles the name and email boxes in contact page */
+input[type="text"],
+input[type="email"] {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    padding: 0.5em;
+    border: 1px solid #e3337f;
+    border-radius: 0.3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--text-color);
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    body {
+        padding: 1rem;
+    }
+}
+
+/* tjis styles the links directly inside the nav */
+nav > a {
+    color: var(--text-color);
+    padding: 0.5em;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
